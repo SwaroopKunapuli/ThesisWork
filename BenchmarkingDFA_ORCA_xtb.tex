@@ -5,11 +5,17 @@ List of available methods and codes for speeding up the optimization calculation
     \item CENSO (with ORCA as the QM calculation driver and xTB as the semi-empirical method; parameters already benchmarked by Grimme's lab)
     \item ML-based methods (AIQM1 method in MLatom 3)
 \end{enumerate}
+Eventhough ORCA has its own optimization algorithm, even with approximations included the calculations are long.
+xTB gives a way to do optimization on a fixed number of cycles while calculating single-point energies with ORCA. This is what CENSO does but can also be done with xTB and ORCA alone.
 \begin{table}
 \centering
 
-\begin{tabular}{|c|c|c|} \hline
-Method & Implementation & directory of input file \\ \hline
+\begin{tabular}{|c|c|c|c|} \hline
+Directory & Orca settings & xTB settings & time(min) \\ \hline
+20 &  &  & \\ \hline
+19 &  &  & \\ \hline
+18 &  &  & \\ \hline
+17 &  &  & \\ \hline
 
 \end{tabular}
 \caption{Various approaches for optimization with ORCA/CENSO and the corresponding computation times on the 32-core Intel Cascadelake machine.}
