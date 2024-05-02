@@ -1,5 +1,8 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{}%
 \contentsline {section}{\numberline {2}Summary of third year work}{3}{}%
-\contentsline {section}{\numberline {3}Benchmarking density functional approximations}{3}{}%
-\contentsline {section}{\numberline {4}Local Energy Decomposition}{3}{}%
+\contentsline {section}{\numberline {3}Metadynamics xTB/CREST workflow benchmarking}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Benchamarking at Semiemperical level with CREST}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Benchamarking at DFT level with CENSO}{3}{}%
+\contentsline {section}{\numberline {4}Benchmarking density functional approximations}{4}{}%
+\contentsline {section}{\numberline {5}Local Energy Decomposition}{4}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

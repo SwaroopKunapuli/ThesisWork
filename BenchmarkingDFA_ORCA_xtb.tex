@@ -1,9 +1,16 @@
 \section{Benchmarking density functional approximations}
+List of available methods and codes for speeding up the optimization calculations:
+\begin{enumerate}
+    \item ORCA (DFA and composite methods)
+    \item CENSO (with ORCA as the QM calculation driver and xTB as the semi-empirical method; parameters already benchmarked by Grimme's lab)
+    \item ML-based methods (AIQM1 method in MLatom 3)
+\end{enumerate}
 \begin{table}
 \centering
-\caption{Various methods studied in this work.}
-\begin{tabular}{|c|c|} \hline
-    Method & Implementation \hline
+
+\begin{tabular}{|c|c|c|} \hline
+Method & Implementation & directory of input file \\ \hline
 
 \end{tabular}
+\caption{Various approaches for optimization with ORCA/CENSO and the corresponding computation times on the 32-core Intel Cascadelake machine.}
 \end{table}

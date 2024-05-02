@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2023.11.16)  30 APR 2024 01:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2023.11.16)  2 MAY 2024 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,84 +320,80 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] (./IntroductionOfThesis.toc)
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] (./IntroductionOfThesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write3
 \openout3 = `IntroductionOfThesis.toc'.
 
- [2] (./Introduction.tex) (./Summary.tex) (./BenchmarkingDFA_ORCA_xtb.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
+ [2] (./Introduction.tex) (./Summary.tex) (./MetaDynamics_Benchamarking.tex
 
-./BenchmarkingDFA_ORCA_xtb.tex:6: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.6     Method & Implementation \hline
-                                      
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+./MetaDynamics_Benchamarking.tex:9: LaTeX Error: Unknown float option `H'.
 
-./BenchmarkingDFA_ORCA_xtb.tex:6: You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.6     Method & Implementation \hline
-                                      
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin{table}[H]
+                    
+Option `H' ignored and `p' used.
 
-./BenchmarkingDFA_ORCA_xtb.tex:6: Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.6     Method & Implementation \hline
-                                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-./BenchmarkingDFA_ORCA_xtb.tex:6: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.6     Method & Implementation \hline
-                                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+./MetaDynamics_Benchamarking.tex:26: LaTeX Error: Unknown float option `H'.
 
-) (./LED_Analysis.tex)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \begin{table}[H]
+                     
+Option `H' ignored and `p' used.
+
+
+./MetaDynamics_Benchamarking.tex:34: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{table}[H]
+                     
+Option `H' ignored and `p' used.
+
+) (./BenchmarkingDFA_ORCA_xtb.tex [3]) (./LED_Analysis.tex)
 No file IntroductionOfThesis.bbl.
-[3]
+[4] [5]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     18.
-
-
-LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     18.
+(LaTeX3)     19.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     18.
+(LaTeX3)     19.
+
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     19.
 
  (./IntroductionOfThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4672 strings out of 481008
- 96110 string characters out of 5909438
- 510716 words of memory out of 5000000
- 21820 multiletter control sequences out of 15000+600000
+ 4689 strings out of 481008
+ 96704 string characters out of 5909438
+ 514727 words of memory out of 5000000
+ 21834 multiletter control sequences out of 15000+600000
  422326 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 125i,7n,130p,10680b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,8n,130p,10680b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IntroductionOfThesis.pdf (3 pages, 78359 bytes).
+Output written on IntroductionOfThesis.pdf (5 pages, 86266 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

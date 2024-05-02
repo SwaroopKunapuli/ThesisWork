@@ -1,0 +1,41 @@
+\section{Metadynamics xTB/CREST workflow benchmarking}
+\subsection{Benchamarking at Semiemperical level with CREST}
+Three different initial coordinates were choosen for the cluster combination
+[3Ch+3U+4Cl]$^{-1}$.
+workflow:
+The initial coordinates were used as input for the NCI algorithm of CREST, that performs iMTD sampling.
+The energy of the conformers was calculated at GFN2-GFNFF composite method level to preserve the topology of the system.
+The conformers that fall in the energy range of 12 kcal/mol from the lowest energy conformer were selected and further optimized at GFN2 level of theory.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|} \hline
+\textbf{Initial coordinates} & \textbf{Energy (Hartree)} & \textbf{Time (s)} & \textbf{Number of conformers generated} \\ \hline
+1 & & & \\ \hline
+2 & & & \\ \hline
+3 & & & \\ \hline
+\end{tabular}
+\caption{Energy of the most stable conformer after optimization at GFN2 level of theory}
+\end{table}
+\subsection{Benchamarking at DFT level with CENSO}
+The ensemble of conformers generated from the previous step were used as input for two types of calculations in CENSO:
+\begin{enumerate}
+    \item Single point energy calculations of each conformer at B97-3c level of theory (called \textit{part0} calculations in CENSO).
+    \item Geometry Optimization of all conformers at r2scan-3c level of theory (called \textit{part2} calculations in CENSO).
+\end{enumerate}
+It was verified that the threshold energy value (the free energy value above which the conformer is ignored by CENSO) for optimization calculations was set very high so as to not ignore any conformers in the optimization calculations. 
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|} \hline
+\textbf{Initial ensemble} & \textbf{Energy (Hartree)} \\ \hline
+
+\end{tabular}
+\caption{Single point energy of the most stable conformer from \textit{part0} calculations of CENSO}
+\end{table}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|} \hline
+\textbf{Initial ensemble} & \textbf{Energy (Hartree)} \\ \hline
+
+\end{tabular}
+\caption{Energy of the most stable conformer from \textit{part2} calculations of CENSO}
+\end{table}
