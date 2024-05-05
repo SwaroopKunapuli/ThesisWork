@@ -1,8 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{}%
-\contentsline {section}{\numberline {2}Summary of third year work}{3}{}%
-\contentsline {section}{\numberline {3}Metadynamics xTB/CREST workflow benchmarking}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Benchamarking at Semiemperical level with CREST}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Benchamarking at DFT level with CENSO}{3}{}%
-\contentsline {section}{\numberline {4}Benchmarking density functional approximations}{4}{}%
-\contentsline {section}{\numberline {5}Local Energy Decomposition}{4}{}%
+\contentsline {section}{\numberline {2}Résumé}{3}{}%
+\contentsline {section}{\numberline {3}Current status and information for the preparation of CSI}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Results and discussion of the work (academic year 2023-2024)}{3}{}%
+\contentsline {section}{\numberline {4}Literature Review}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Parametrization for accurate molecular dynamics simulations}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Fragmentation simulations for corraboration of experimental mass-spectrometric data}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Thermochemical calculations of the lichen \textit {Evernia prunastri} using Semi-empirical and DFT methods}{4}{}%
+\contentsline {section}{\numberline {5}Metadynamics xTB/CREST workflow benchmarking}{4}{}%
+\contentsline {subsection}{\numberline {5.1}Benchamarking at Semiemperical level with CREST}{4}{}%
+\contentsline {subsection}{\numberline {5.2}Benchamarking at DFT level with CENSO}{4}{}%
+\contentsline {section}{\numberline {6}Benchmarking density functional approximations}{5}{}%
+\contentsline {section}{\numberline {7}Local Energy Decomposition}{5}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
