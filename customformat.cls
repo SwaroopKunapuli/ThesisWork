@@ -10,6 +10,6 @@
 \def\@breakauthor#1 #2\@breakauthor{%
   \gdef\@author{
   %\includegraphics[scale=0.4]{LOGO_maxQ_rgb}
-  \\\\Author: \textbf{#1 #2}\\ Directrice: \textbf{Prof. Rachel Schurhammer}
-  \\Co-director: \textbf{Dr. Alain Chaumont}%
+  \\\\ \textbf{#1 #2}\\ Directrice of the thesis: \textbf{Prof. Rachel Schurhammer}
+  \\Co-director of the thesis: \textbf{Dr. Alain Chaumont}%
 }}

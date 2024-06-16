@@ -1,0 +1,35 @@
+\section{Thermochemical calculations of Choline Chloride-based systems}
+\label{sec:thermochemical-calculations}
+Details of DFT: B3LYP, 6-311++G(d,p), D3
+
+List of methods studied:
+\begin{itemize}
+    \item Replacing S with O and O with S in the urea/thiourea most stable geometries calculated previously.
+    \item CREST NCI Sampling and taking the best conformer.
+\end{itemize}
+\subsubsection*{Relplaced S in Thiourea with O to make Urea}
+\begin{table}[h!]
+    \centering
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|c|c|c|c|}\hline
+        System & Energy (Old geometry) & Energy (New geometry) & Energy (CREST geometry) \\ \hline
+        [1U+1ChCl+1Cl]$^{-1}$ & -1475.01399936 & -1475.01307918 & -1475.01792736 \\ \hline
+        [1U+2ChCl+1Cl]$^{-1}$ & -2264.34123298 & -2264.33731603 & -2264.34844310 \\ \hline
+        [2U+1ChCl+1Cl]$^{-1}$ & -1700.39820039 & -1700.39980596 & -1700.41437298 \\ \hline
+    \end{tabular}
+    }
+    \caption{Urea Systems: Comparing energies of new geometries to the old ones and also CREST generated geometries.}
+\end{table}
+\subsubsection*{Replace O in Urea with S to make Thiourea}
+\begin{table}[h!]
+    \centering
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|c|c|c|c|}\hline
+        System & Energy (old geometry) & Energy (New geometry) & Energy (CREST geometry) \\ \hline
+        [1ThioU+1ChCl+1Cl]$^{-1}$ & -1797.97419795 & -1797.97359958 & -1797.97877987 \\ \hline
+        [1ThioU+2ChCl+1Cl]$^{-1}$ & -2587.29633558 & -2587.29763998 & -2587.30660929 \\ \hline
+        [2ThioU+1ChCl+1Cl]$^{-1}$ & -2346.32084031 & -2346.31949541 & -2346.33237642 \\ \hline
+    \end{tabular}
+    }
+    \caption{Thiourea Systems: Comparing energies of new geometries to the old ones and also CREST generated geometries.}
+\end{table}

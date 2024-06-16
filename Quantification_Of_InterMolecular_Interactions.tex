@@ -1,0 +1,51 @@
+\section{Quantification of intermolecular interactions}
+\label{sec:quantification_interactions}
+In this section we will discuss the methods and results of the calculations to quantify the strength of the intermolecular interactions in our choline chloride-based systems.
+
+
+
+The Local Energy Decomposition method is implemented in ORCA to decompose the DLPNO-CCSD(T) energies into physically meaningful contributions.
+Admittedly, the decomposition is to some extent arbitary, but using pair correlation energies for the pairs of localized occupied orbitals help in decomposing the correlation and the reference energy into intra- and interfragment contributions.
+The fragments have to be user defined, and in our case these are the urea,thiourea and choline molecules and the chloride ions.
+We studied the following urea-containing and the corresponding thiourea-containing clusters.
+For each cluster combinations, we studied three geometries:
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|} \hline
+System & Old Geometry & New Geometry & Crest Optimised Geometry \\ \hline
+$[1U+1ChCl+1Cl]^{-1}$ &  & &  \\ \hline
+$[1ThioU+1ChCl+1Cl]^{-1}$ &  & &  \\ \hline
+\end{tabular}
+\caption{Interaction energies of three geometries of each cluster combination studied}
+\end{table}
+\subsection{Input structure and parameters for different Calculations}
+\subsubsection{NBO Analysis}
+GAUSSIAN 16 Package for the NBO population analysis
+\begin{minted}[linenos=false]{bash}
+    #P B3LYP/6-311++G(d,p) SCF=Tight Pop=NBO
+\end{minted}
+\subsubsection{QTAIM Analysis}
+WFN files were generated using GAUSSIAN 16 Package.
+\begin{minted}[linenos=false]{bash}
+    #P B3LYP/6-311++G(d,p) SCF=Tight output=WFN
+    ...
+    ...
+    <filename>.wfn
+\end{minted}
+\subsubsection{Local Energy Decomposition Analysis}
+ORCA 5.0.4 Package was used for the Local Energy Decomposition (LED) Analysis.
+
+\begin{minted}[linenos=false]{bash}
+! dlpno-ccsd(t) def2-TZVP def2-TZVP/C def2/J rijcosx verytightscf 
+! TightPNO LED
+%mdci DoDIDplot true end
+%MaxCore 8000
+%pal nprocs 32 end
+*xyz -1 1
+... 
+*
+\end{minted}
+
+Resolution of identity (RI) method with Chain of Spheres (COS) approximation (RIJCOSX) implemented in the ORCA package was used to speed up the calculations,
+along with DLPNO-CCSD(T) method and auxiliary basis set def2-TZVP/C.
+The calculations requested data for DIDplot which will be presented in this report.

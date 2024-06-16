@@ -1,21 +1,24 @@
 \documentclass{customformat}
 \usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{minted}
 \begin{document}
 
-\author{Swaroop Kunapuli}
+\author{Swaroop Venkata Sai Kunapuli}
 \title{Towards the understanding of the structure and formation of Deep Eutectic Solvents using classical molecular dynamics and fragmentation simulations}
-\subtitle{Forcefield parametrization and benchmarking the density functional approximation methods.}
+%%\subtitle{Forcefield parametrization, quantum mechanical calculations and fragmentation simulations of non-covalent clusters}
 
 \maketitle
 \newpage
 \tableofcontents
 \newpage
-\input{Introduction}
 \input{Summary}
-\input{CSI_Info}
+\input{Introduction}
 \input{LiteratureReview}
+\input{CholineChloride_Systems.tex}
+\input{Quantification_Of_InterMolecular_Interactions}
 \input{MetaDynamics_Benchamarking}
 \input{BenchmarkingDFA_ORCA_xtb}
-\input{LED_Analysis}
+
 \bibliography{bibliography}
 \end{document}
